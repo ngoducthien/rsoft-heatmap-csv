@@ -5,7 +5,7 @@ This is a script to convert RSOFT heatmap data to CSV file for plotting using Ve
 This script operates as a command line tool with the following command:
 
 ```python
-/path/to/rsoft-heatmap-csv.py f=mosttmp_dm_de_a_total_vs_wavelength.dat
+/path/to/rsoft-heatmap-csv.py -f=mosttmp_dm_de_a_total_vs_wavelength.dat
 ```
 The output file will be generated in the same directory.
 
