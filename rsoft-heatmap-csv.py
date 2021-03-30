@@ -14,7 +14,7 @@ parser = argparse.ArgumentParser()
 
 parser.add_argument(
     '-f', '-file', '--filename',
-    help="Rsoft heatmap filename",
+    help="Rsoft data filename. e.g., mosttmp_dm_de_a_total_vs_wavelength.dat",
     dest='filename',
     type=str,
     nargs='*',
